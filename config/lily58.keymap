@@ -74,11 +74,11 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                    &trans            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans                    &mwh SCROLL_UP    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                    &msc SCROLL_DOWN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans            &trans  &trans  &trans  &trans  &trans
-                                &trans          &trans           &trans  &trans    &trans  &trans            &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans                    &trans            &trans           &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans                    &mwh SCROLL_UP    &trans           &trans  &trans  &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                    &msc SCROLL_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans            &kp C_VOL_DN     &trans  &trans  &trans  &trans
+                                &trans          &trans           &trans  &trans    &trans  &trans            &trans           &trans
             >;
         };
     };
