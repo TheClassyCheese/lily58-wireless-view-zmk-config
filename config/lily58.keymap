@@ -77,7 +77,7 @@
 &trans  &trans  &trans  &trans  &trans            &trans                    &trans  &trans  &trans             &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans                    &trans  &trans  &kp C_VOLUME_UP    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans                    &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &mwh SCROLL_DOWN  &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &msc SCROLL_DOWN  &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
                         &trans  &trans            &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
