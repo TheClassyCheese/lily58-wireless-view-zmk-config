@@ -24,6 +24,21 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        SpaceLeft {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        SpaceRight {
+            bindings = <&kp LC(RIGHT_ARROW)>;
+            key-positions = <14 15>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
