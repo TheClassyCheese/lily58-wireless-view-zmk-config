@@ -37,6 +37,21 @@
             bindings = <&kp LC(RIGHT_ARROW)>;
             key-positions = <14 15>;
         };
+
+        Undo {
+            bindings = <&kp K_UNDO>;
+            key-positions = <37 38>;
+        };
+
+        Copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <38 39>;
+        };
+
+        Paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
