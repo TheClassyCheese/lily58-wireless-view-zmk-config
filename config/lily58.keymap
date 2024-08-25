@@ -40,17 +40,17 @@
         };
 
         Undo {
-            bindings = <&kp K_UNDO>;
+            bindings = <&kp LG(Z)>;
             key-positions = <37 38>;
         };
 
         Copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&kp LG(C)>;
             key-positions = <38 39>;
         };
 
         Paste {
-            bindings = <&kp K_PASTE>;
+            bindings = <&kp LG(V)>;
             key-positions = <39 40>;
         };
     };
