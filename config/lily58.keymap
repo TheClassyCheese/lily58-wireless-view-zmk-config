@@ -43,7 +43,6 @@
         SpaceLeft {
             bindings = <&kp LC(LEFT_ARROW)>;
             key-positions = <13 14>;
-            layers = <0>;
         };
 
         SpaceRight {
@@ -119,7 +118,7 @@
 &trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &trans        &trans     &trans  &trans
 &trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &kp UP_ARROW  &trans     &trans  &trans
 &trans  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans                    &kp LG(LEFT_BRACKET)  &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans             &trans        &trans            &trans          &trans  &trans    &trans  &trans                &kp LG(DOWN)  &kp LG(DOWN)  &trans     &trans  &kp BSLH
+&trans  &trans             &trans        &trans            &trans          &trans  &trans    &trans  &trans                &kp LG(DOWN)  &mkp LCLK     &trans     &trans  &kp BSLH
                                          &trans            &trans          &trans  &trans    &trans  &trans                &trans        &trans
             >;
         };
