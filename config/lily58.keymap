@@ -79,11 +79,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC       &mt EXCL N1   &kp N2           &kp N3               &kp N4         &kp N5                            &kp N6  &kp N7              &kp N8                &kp N9            &kp N0                   &kp GRAVE
-&kp TAB       &kp Q         &kp W            &kp E                &kp R          &kp T                             &kp Y   &kp U               &kp I                 &kp O             &kp P                    &kp EQUAL
-&kt CAPSLOCK  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LSHIFT F  &kp G                             &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMI  &kp MINUS
-&kp LSHFT     &kp Z         &kp X            &kp C                &kp V          &kp B   &kp LBKT     &kp RBKT     &kp N   &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp APOS
-                                             &kp LALT             &kp LGUI       &mo 1   &kp SPACE    &lt 3 ENTER  &mo 2   &kp BSPC            &kp RGUI
+&kp ESC       &mt EXCL N1   &mt AT N2        &mt HASH N3          &mt DOLLAR N4  &mt PERCENT N5                            &mt CARET N6  &mt AMPERSAND N7    &mt ASTRK N8          &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp GRAVE
+&kp TAB       &kp Q         &kp W            &kp E                &kp R          &kp T                                     &kp Y         &kp U               &kp I                 &kp O                    &kp P                     &kp EQUAL
+&kt CAPSLOCK  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_COMMAND D  &hml LSHIFT F  &kp G                                     &kp H         &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L         &hmr RIGHT_CONTROL SEMI   &kp MINUS
+&kp LSHFT     &kp Z         &kp X            &kp C                &kp V          &kp B           &kp LBKT     &kp RBKT     &kp N         &kp M               &kp COMMA             &kp DOT                  &kp FSLH                  &kp APOS
+                                             &kp LALT             &kp LGUI       &mo 1           &kp SPACE    &lt 3 ENTER  &mo 2         &kp BSPC            &kp RGUI
             >;
         };
 
@@ -115,10 +115,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &trans        &trans     &trans  &trans
-&trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &kp UP_ARROW  &trans     &trans  &trans
-&trans  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans                    &kp LG(LEFT_BRACKET)  &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans             &trans        &trans            &trans          &trans  &trans    &trans  &trans                &kp LG(DOWN)  &trans        &trans     &trans  &kp BSLH
+&trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &trans                     &trans     &trans  &trans
+&trans  &trans             &trans        &trans            &trans          &trans                    &trans                &trans        &kp UP_ARROW               &trans     &trans  &trans
+&trans  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans                    &kp LG(LEFT_BRACKET)  &kp LEFT      &kp DOWN                   &kp RIGHT  &trans  &trans
+&trans  &trans             &trans        &trans            &trans          &trans  &trans    &trans  &trans                &kp LG(DOWN)  &kp LS(LG(RIGHT_BRACKET))  &trans     &trans  &kp BSLH
                                          &trans            &trans          &trans  &trans    &trans  &trans                &trans        &trans
             >;
         };
