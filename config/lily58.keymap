@@ -70,6 +70,15 @@
         };
     };
 
+    macros {
+        audio_sync: audio_sync {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LS(U) &kp RIGHT &kp LEFT>;
+            label = "AUDIO_SYNC";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
