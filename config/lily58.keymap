@@ -74,7 +74,7 @@
         audio_sync: audio_sync {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LS(U) &kp RIGHT &kp LEFT>;
+            bindings = <&kt LS(U) &kp RIGHT &kp LEFT &kp ENTER>;
             label = "AUDIO_SYNC";
         };
     };
