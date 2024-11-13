@@ -143,7 +143,7 @@
 &trans  &trans  &trans          &trans            &trans        &trans                    &trans  &trans  &kp I   &trans  &trans  &trans
 &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp CAPSLOCK  &trans                    &trans  &kp J   &kp K   &kp L   &trans  &trans
 &trans  &trans  &trans          &trans            &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans            &trans        &trans  &trans    &trans  &trans  &trans  &trans
+                                &trans            &trans        &trans  &trans    &kp U   &trans  &trans  &trans
             >;
         };
 
